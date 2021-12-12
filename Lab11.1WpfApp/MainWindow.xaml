@@ -1,0 +1,98 @@
+﻿<Window x:Class="Lab11._1WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab11._1WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid Margin="-0.667,0,0.667,0">
+        <Path Data="M384.40304,488.01901 C356.1711,425.56654 355.67115,439.61028 355.67115,413.08937 355.67115,386.56845 371.07043,360.90364 377.05901,338.66039 383.04758,316.41715 381.33656,297.59556 381.33656,289.89596" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="199.124" Margin="375.348,250.541,0,0" Stretch="Fill" Stroke="#FF007605" VerticalAlignment="Top" Width="29.732" StrokeThickness="3"/>
+        <Ellipse HorizontalAlignment="Left" Height="47.553" Margin="377.916,214.965,0,0" VerticalAlignment="Top" Width="47.553">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.59,0.389" Center="0.63,0.363">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.321"/>
+                    <GradientStop Color="#FFF3EA2D" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+            <Ellipse.Stroke>
+                <SolidColorBrush Color="Black"/>
+            </Ellipse.Stroke>
+        </Ellipse>
+        <Path Data="M407.667,261.66667 C417.28129,274.28542 421.2876,288.82747 430.667,301.33333 432.962,304.39333 434.47484,307.36078 439.33367,306.66667 443.48061,306.07425 445.61779,303.06033 446.33367,297.33333 447.75696,285.94702 445.47864,278.62081 434.33367,269.33333 428.79065,264.71415 424.77894,260.15867 418.00033,256.66667" HorizontalAlignment="Left" Height="51.102" Margin="407.667,256.667,0,0" Stretch="Fill" VerticalAlignment="Top" Width="40.046" StrokeThickness="0.5" Stroke="Black">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M391.667,261.33333 C382.70317,269.58949 379.49173,279.61189 367.33367,285.33333 363.89092,286.95345 360.9496,289.33333 357.00033,289.33333 353.61056,289.33333 350.19816,289.83482 346.667,289.66667 341.63302,289.42695 335.667,290.21189 335.667,281.33333 335.667,273.69013 339.1879,273.91272 346.33367,269 352.42145,264.81465 357.55243,261.37152 364.667,259 370.33032,257.11223 376.29008,256.34158 381.667,254.33333" HorizontalAlignment="Left" Height="35.868" Margin="335.667,254.333,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="56.5">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M378.33367,246.33333 C361.33693,246.33333 344.35251,247 327.33367,247 322.97667,247 318.78925,246.91117 316.00033,241.33333 312.90369,235.14005 312.72094,232.37621 320.33367,226.66667 331.98088,217.93125 341.96267,221.717 357.667,226 364.66958,227.9098 369.36062,231.0309 375.33367,234.66667" HorizontalAlignment="Left" Height="26.116" Margin="313.995,221.384,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="64.839">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M380.33367,227 C375.68678,220.69351 366.20315,217.20282 360.33367,211.33333 355.97256,206.97223 352.083,200.13226 348.667,194.66667 345.88022,190.20781 343.18386,186.48314 349.00033,180.66667 353.69539,175.97161 354.62272,175.42477 362.667,179 378.71948,186.13443 379.24714,203.55778 387.00033,218" HorizontalAlignment="Left" Height="50.824" Margin="345.549,176.676,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="41.951">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M422.917,250 C434.88971,255.02854 445.47253,263.87345 458.417,266.75 463.68527,267.92073 467.19547,269.86076 472.917,267 476.37469,265.27116 478.04496,260.63388 476.167,255 474.07331,248.71892 470.56814,248.29068 464.667,244.75 459.19459,241.46655 455.27888,240.77238 448.917,239.5 438.96451,237.5095 435.18575,237.85278 426.417,241.75" HorizontalAlignment="Left" Height="30.679" Margin="422.917,238.308,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="54.532">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M422.667,226.75 C429.95437,218.87964 437.84553,213.93184 447.167,208 453.65623,203.87049 457.40691,204.5 465.417,204.5 468.3819,204.5 471.22045,204.35713 474.167,204.75 477.38122,205.17856 477.11902,204.60354 478.917,207.75 482.52294,214.0604 468.5335,222.3056 456.167,225.25 445.98431,227.67445 435.10651,227.61121 425.167,230.75" HorizontalAlignment="Left" Height="26.784" Margin="422.667,204.466,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="57.327">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.878,0.788" Center="0.918,0.762">
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M401.667,214.33333 C397.71832,202.48729 398.74845,192.34928 404.667,179.66667 408.23739,172.01582 409.84312,170.44024 418.33367,166.66667 422.28926,164.90862 424.04443,164.66667 428.33367,164.66667 431.93077,164.66667 431.71459,162.76184 433.667,166.66667 448.89923,197.13112 414.75506,188.2718 406.667,214.33333" HorizontalAlignment="Left" Height="50.631" Margin="399.313,164.202,0,0" Stretch="Fill" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="38.72">
+            <Path.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0.222"/>
+                    <GradientStop Color="#FF9AF1FF" Offset="0.958"/>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M376.00033,384.66667 C346.00033,364.66667 335.41734,355.74966 317.41734,361.08299 299.41734,366.41632 268.75065,372.74959 299.08399,350.08279 329.41733,327.416 326.41738,326.41656 338.08404,334.08319 349.75069,341.74983 359.41735,362.41623 366.75068,370.41626 374.084,378.4163 376.00033,384.66667 376.00033,384.66667 z" HorizontalAlignment="Left" Height="55.391" Margin="286.262,329.776,0,0" Stretch="Fill" Stroke="#FF004412" StrokeThickness="3" VerticalAlignment="Top" Width="90.238" Fill="#FF0F812E"/>
+        <Path Data="M379.00033,361 C399.00033,336 393.16734,323.83333 417.834,327.83333 442.50067,331.83333 463.16664,329.16631 448.16676,336.16639 433.16689,343.16647 419.16698,335.83306 407.83375,341.49978 396.50052,347.16651 379.00033,361 379.00033,361 z" Fill="#FF0F812E" HorizontalAlignment="Left" Height="36.915" Margin="378,326.085,0,0" Stretch="Fill" Stroke="#FF004412" StrokeThickness="3" VerticalAlignment="Top" Width="77.244"/>
+
+    </Grid>
+</Window>
